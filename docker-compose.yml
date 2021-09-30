@@ -12,7 +12,7 @@ services:
       - wiki-db:/var/www/data
       # After initial setup, download LocalSettings.php to this repo and uncomment the following line
       # use docker-compose to restart the mediawiki service
-      - ./LocalSettings.php:/var/www/html/LocalSettings.php:ro
+      # - ./LocalSettings.php:/var/www/html/LocalSettings.php:ro
 volumes:
   wiki-images:
   wiki-db:
